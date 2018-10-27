@@ -100,6 +100,9 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <Content Include="App_Config\Include\Rainbow.config" />
+    <Content Include="App_Config\CoreySmith\Foundation\CoreySmith.Foundation.Serialization.config" />
+    <Content Include="App_Config\CoreySmith\Unicorn.Helix.config" />
+    <Content Include="App_Config\CoreySmith\Foundation\CoreySmith.Foundation.Serialization.Settings.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.config" />
@@ -115,6 +118,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

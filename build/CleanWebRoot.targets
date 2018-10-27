@@ -6,5 +6,6 @@
     </ItemGroup>
     <Delete Files="@(Binaries)" />
     <RemoveDir Directories="$(publishUrl)\App_Config\Environment\CoreySmith" />
+    <RemoveDir Directories="$(publishUrl)\App_Config\CoreySmith" />
   </Target>
 </Project>
