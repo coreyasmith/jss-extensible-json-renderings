@@ -4,4 +4,5 @@
     <publishUrl>C:\inetpub\wwwroot\extjsonrenderings.localhost</publishUrl>
   </PropertyGroup>
   <Import Project="./PublishSettings.targets.user" Condition="exists('./PublishSettings.targets.user')" />
+  <Import Project="./build/CleanWebRoot.targets" Condition="exists('./build/CleanWebRoot.targets')" />
 </Project>
