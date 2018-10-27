@@ -11,9 +11,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{6C79
 		NuGet.config = NuGet.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{851D8716-665E-418E-ABE8-372338302FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreySmith.Project.Common", "src\Project\Common\code\CoreySmith.Project.Common.csproj", "{9C87F864-49A6-407E-B4EF-D5581E8E16B0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C87F864-49A6-407E-B4EF-D5581E8E16B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C87F864-49A6-407E-B4EF-D5581E8E16B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C87F864-49A6-407E-B4EF-D5581E8E16B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C87F864-49A6-407E-B4EF-D5581E8E16B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C87F864-49A6-407E-B4EF-D5581E8E16B0} = {851D8716-665E-418E-ABE8-372338302FC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FBE68EDC-B797-43F5-B1B5-862E2AE6EB4C}
