@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreySmith.Foundation.Seria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreySmith.Project.JssRocks", "src\Project\JssRocks\code\CoreySmith.Project.JssRocks.csproj", "{6744F5B8-26E4-4143-8DEF-DC16F12A01EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreySmith.Foundation.LayoutService", "src\Foundation\LayoutService\code\CoreySmith.Foundation.LayoutService.csproj", "{102AFDFD-B705-4BBB-9259-7FF11A051CDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{6744F5B8-26E4-4143-8DEF-DC16F12A01EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6744F5B8-26E4-4143-8DEF-DC16F12A01EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6744F5B8-26E4-4143-8DEF-DC16F12A01EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102AFDFD-B705-4BBB-9259-7FF11A051CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102AFDFD-B705-4BBB-9259-7FF11A051CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102AFDFD-B705-4BBB-9259-7FF11A051CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102AFDFD-B705-4BBB-9259-7FF11A051CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{9C87F864-49A6-407E-B4EF-D5581E8E16B0} = {851D8716-665E-418E-ABE8-372338302FC3}
 		{03567124-F93E-4F9A-98E5-EC0084EFE5F0} = {BFF14665-26DB-4340-8F09-A29D1A2CB5A2}
 		{6744F5B8-26E4-4143-8DEF-DC16F12A01EB} = {851D8716-665E-418E-ABE8-372338302FC3}
+		{102AFDFD-B705-4BBB-9259-7FF11A051CDB} = {BFF14665-26DB-4340-8F09-A29D1A2CB5A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FBE68EDC-B797-43F5-B1B5-862E2AE6EB4C}
