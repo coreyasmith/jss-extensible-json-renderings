@@ -8,3 +8,30 @@ placeholders:
       heading: Welcome to Sitecore JSS
       content: |
           <p>JSS rocks!</p>
+  - componentName: Container
+    placeholders:
+      jss-container:
+      - componentName: ContentBlock
+        fields:
+          content: <p>Level 1 ContentBlock.</p>
+      - componentName: Container
+        placeholders:
+          jss-container:
+          - componentName: ContentBlock
+            fields:
+              content: <p>Level 2 ContentBlock.</p>
+      - componentName: ContentBlock
+        fields:
+          content: <p>Level 1 ContentBlock.</p>
+      - componentName: Container
+        placeholders:
+          jss-container:
+          - componentName: ContentBlock
+            fields:
+              content: <p>Level 2 ContentBlock.</p>
+          - componentName: Container
+            placeholders:
+              jss-container:
+              - componentName: ContentBlock
+                fields:
+                  content: <p>Level 3 ContentBlock.</p>
