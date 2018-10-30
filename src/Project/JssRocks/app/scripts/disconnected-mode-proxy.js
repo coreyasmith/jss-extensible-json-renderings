@@ -12,6 +12,8 @@
 const fs = require('fs');
 const { createCustomDisconnectedServer } = require('./create-custom-disconnected-server');
 const config = require('../package.json').config;
+const { getRouteRenderings } = require('./layout-service/get-route-renderings');
+const { addAtlSugMembers } = require('./layout-service/add-atlsug-members');
 
 const touchToReloadFilePath = 'src/temp/config.js';
 
@@ -36,6 +38,11 @@ const proxyOptions = {
       console.log('Manifest data updated. Refresh the browser to see latest content!');
     }
   },
+  customizeRoute: (route, rawRoute, currentManifest, request, response) => {
+    const routeRenderings = getRouteRenderings(route);
+    addAtlSugMembers(routeRenderings, rawRoute.layout.renderings);
+    return route;
+  }
 };
 
 createCustomDisconnectedServer(proxyOptions);
