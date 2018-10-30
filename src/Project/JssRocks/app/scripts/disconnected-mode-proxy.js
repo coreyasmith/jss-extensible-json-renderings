@@ -10,7 +10,7 @@
 /* eslint-disable no-console */
 
 const fs = require('fs');
-const { createDefaultDisconnectedServer } = require('@sitecore-jss/sitecore-jss-dev-tools');
+const { createCustomDisconnectedServer } = require('./create-custom-disconnected-server');
 const config = require('../package.json').config;
 
 const touchToReloadFilePath = 'src/temp/config.js';
@@ -38,4 +38,4 @@ const proxyOptions = {
   },
 };
 
-createDefaultDisconnectedServer(proxyOptions);
+createCustomDisconnectedServer(proxyOptions);
