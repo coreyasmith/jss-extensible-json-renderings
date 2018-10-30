@@ -10,8 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{6C79
 		.gitignore = .gitignore
 		build\CleanWebRoot.targets = build\CleanWebRoot.targets
 		src\Project\Common\code\App_Config\Environment\CoreySmith\CoreySmith.Project.Common.Dev.config = src\Project\Common\code\App_Config\Environment\CoreySmith\CoreySmith.Project.Common.Dev.config
+		src\Project\JssRocks\code\App_Config\Environment\CoreySmith\CoreySmith.Project.JssRocks.Dev.config = src\Project\JssRocks\code\App_Config\Environment\CoreySmith\CoreySmith.Project.JssRocks.Dev.config
 		NuGet.config = NuGet.config
 		PublishSettings.targets = PublishSettings.targets
+		src\Project\JssRocks\app\scjssconfig.json = src\Project\JssRocks\app\scjssconfig.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{851D8716-665E-418E-ABE8-372338302FC3}"

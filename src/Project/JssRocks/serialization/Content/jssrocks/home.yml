@@ -1,0 +1,114 @@
+﻿---
+ID: "7b1078e1-8b2f-5ad3-8209-aad27a34e314"
+Parent: "41f54405-ec8b-56d8-a3b5-dc8b4abb058e"
+Template: "69f9e9ec-716f-5d9d-8e9b-a9bfcc5682eb"
+Path: /sitecore/content/jssrocks/home
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{69F9E9EC-716F-5D9D-8E9B-A9BFCC5682EB}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2C4A53CC-9DA8-5F51-9D79-6EE2FC671B2D}"
+              p:after="p[@uid='{6D3A222D-7831-525A-99C2-7606969B59A3}']"
+              s:rname="ContentBlock"
+              s:ds="{0014F97C-E1BC-501D-9219-069D52F863F5}"
+              s:id="{278CC291-A9E8-5FE3-9230-BFD8AE2E5E9E}"
+              s:par=""
+              s:ph="/jss-main" />
+            <r
+              uid="{942C7625-F5E9-5697-8CD8-27F61F5E339A}"
+              p:after="r[@uid='{2C4A53CC-9DA8-5F51-9D79-6EE2FC671B2D}']"
+              s:rname="Container"
+              s:id="{046072B0-8D3C-5EEB-8875-B1F0273B5069}"
+              s:par=""
+              s:ph="/jss-main" />
+            <r
+              uid="{59067B0F-11A4-541E-A0AB-15B5A7F58CA0}"
+              p:after="r[@uid='{942C7625-F5E9-5697-8CD8-27F61F5E339A}']"
+              s:rname="ContentBlock"
+              s:ds="{31B32A43-0E67-5B7E-9424-5322769A3A26}"
+              s:id="{278CC291-A9E8-5FE3-9230-BFD8AE2E5E9E}"
+              s:par=""
+              s:ph="/jss-main/jss-container-{942C7625-F5E9-5697-8CD8-27F61F5E339A}-0" />
+            <r
+              uid="{BF9386B4-BE36-5F3A-94B2-64A5FB94351F}"
+              p:after="r[@uid='{59067B0F-11A4-541E-A0AB-15B5A7F58CA0}']"
+              s:rname="Container"
+              s:id="{046072B0-8D3C-5EEB-8875-B1F0273B5069}"
+              s:par=""
+              s:ph="/jss-main/jss-container-{942C7625-F5E9-5697-8CD8-27F61F5E339A}-0" />
+            <r
+              uid="{F5EA2F25-A844-5EF1-ABE0-D81008173077}"
+              p:after="r[@uid='{BF9386B4-BE36-5F3A-94B2-64A5FB94351F}']"
+              s:rname="ContentBlock"
+              s:ds="{95C620FD-CE50-547D-BDAB-7C1647B76295}"
+              s:id="{278CC291-A9E8-5FE3-9230-BFD8AE2E5E9E}"
+              s:par=""
+              s:ph="/jss-main/jss-container-{942C7625-F5E9-5697-8CD8-27F61F5E339A}-0/jss-container-{BF9386B4-BE36-5F3A-94B2-64A5FB94351F}-0" />
+            <r
+              uid="{111F7FF5-558B-55B6-9101-3FDF1BDE7B58}"
+              p:after="r[@uid='{F5EA2F25-A844-5EF1-ABE0-D81008173077}']"
+              s:rname="ContentBlock"
+              s:ds="{CA721E48-9C78-5B88-97FF-92F8304DFDD1}"
+              s:id="{278CC291-A9E8-5FE3-9230-BFD8AE2E5E9E}"
+              s:par=""
+              s:ph="/jss-main/jss-container-{942C7625-F5E9-5697-8CD8-27F61F5E339A}-0" />
+            <r
+              uid="{C4E93695-521A-5032-A19B-E2CDD3B8BCB5}"
+              p:after="r[@uid='{111F7FF5-558B-55B6-9101-3FDF1BDE7B58}']"
+              s:rname="Container"
+              s:id="{046072B0-8D3C-5EEB-8875-B1F0273B5069}"
+              s:par=""
+              s:ph="/jss-main/jss-container-{942C7625-F5E9-5697-8CD8-27F61F5E339A}-0" />
+            <r
+              uid="{758EA721-5FBF-5CEE-B3E5-C8A2BA1FC1DD}"
+              p:after="r[@uid='{C4E93695-521A-5032-A19B-E2CDD3B8BCB5}']"
+              s:rname="ContentBlock"
+              s:ds="{607CB054-AD94-5A28-B023-376A3BF708C4}"
+              s:id="{278CC291-A9E8-5FE3-9230-BFD8AE2E5E9E}"
+              s:par=""
+              s:ph="/jss-main/jss-container-{942C7625-F5E9-5697-8CD8-27F61F5E339A}-0/jss-container-{C4E93695-521A-5032-A19B-E2CDD3B8BCB5}-0" />
+            <r
+              uid="{FF5C2C1A-282B-5C76-B212-B822AD5337EC}"
+              p:after="r[@uid='{758EA721-5FBF-5CEE-B3E5-C8A2BA1FC1DD}']"
+              s:rname="Container"
+              s:id="{046072B0-8D3C-5EEB-8875-B1F0273B5069}"
+              s:par=""
+              s:ph="/jss-main/jss-container-{942C7625-F5E9-5697-8CD8-27F61F5E339A}-0/jss-container-{C4E93695-521A-5032-A19B-E2CDD3B8BCB5}-0" />
+            <r
+              uid="{1259D3DE-58E5-5FDA-8F68-7D28D0E37250}"
+              p:after="*[1=2]"
+              s:rname="ContentBlock"
+              s:ds="{7B71BFA1-64B0-576A-98EC-4DCE26324A9A}"
+              s:id="{278CC291-A9E8-5FE3-9230-BFD8AE2E5E9E}"
+              s:par=""
+              s:ph="/jss-main/jss-container-{942C7625-F5E9-5697-8CD8-27F61F5E339A}-0/jss-container-{C4E93695-521A-5032-A19B-E2CDD3B8BCB5}-0/jss-container-{FF5C2C1A-282B-5C76-B212-B822AD5337EC}-0" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181030T032308Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "d01a7ab7-db7d-55ce-9931-50dce545afd4"
+      Hint: pageTitle
+      Value: Welcome to Sitecore JSS

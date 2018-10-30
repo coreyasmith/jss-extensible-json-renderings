@@ -1,0 +1,37 @@
+﻿---
+ID: "e280d23f-8488-54da-b90c-25c77ad9ad51"
+Parent: "69f9e9ec-716f-5d9d-8e9b-a9bfcc5682eb"
+Template: "69f9e9ec-716f-5d9d-8e9b-a9bfcc5682eb"
+Path: /sitecore/templates/Project/jssrocks/App Route/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{659F03DB-F420-599C-8558-8476E27A4C52}">
+        <p
+          uid="{B88F7D5A-6BC9-571B-8230-DF2D9D37EF68}"
+          key="jss-main"
+          md="{CB158D5C-1D34-574C-81E5-67C23580E229}" />
+        <p
+          uid="{6D3A222D-7831-525A-99C2-7606969B59A3}"
+          key="jss-container"
+          md="{1C74FEFD-2383-58FF-9A8A-1AB5B981A5A7}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181030T032307Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport

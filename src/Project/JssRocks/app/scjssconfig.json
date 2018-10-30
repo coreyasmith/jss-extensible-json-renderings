@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "C:\\inetpub\\wwwroot\\extjsonrenderings.localhost",
+    "deployUrl": "http://extjsonrenderings.localhost/sitecore/api/jss/import",
+    "layoutServiceHost": "http://extjsonrenderings.localhost",
+    "apiKey": "{D950C900-A070-468B-A211-97ABB24E598C}",
+    "deploySecret": "vki8o9lsljtkhlwuluw6kr6us6pxjb5gv1tnipu1o5"
+  }
+}
