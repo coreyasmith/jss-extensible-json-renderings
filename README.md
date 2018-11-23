@@ -41,6 +41,8 @@ Read more details about the inner workings here:
 7. Build the solution in Visual Studio.
    - This will publish all code to your instance thanks to
      [Helix Publishing Pipeline][4].
+   - Note: you may need to reload the solution and build a second time if you
+     get errors about missing assemblies/references when you load Sitecore.
 8. Perform a Unicorn sync at `/unicorn.aspx?verb=sync`.
 9. Navigate to your site at <http://hostname.localhost.>
 
