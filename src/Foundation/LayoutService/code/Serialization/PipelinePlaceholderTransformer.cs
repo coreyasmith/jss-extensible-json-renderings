@@ -2,7 +2,7 @@
 using CoreySmith.Foundation.LayoutService.ItemRendering;
 using CoreySmith.Foundation.LayoutService.Pipelines.LayoutService.TransformPlaceholderElement;
 using Sitecore.Abstractions;
-using Sitecore.JavaScriptServices.ViewEngine.LayoutService;
+using Sitecore.JavaScriptServices.ViewEngine.LayoutService.Serialization;
 using Sitecore.LayoutService.ItemRendering;
 
 namespace CoreySmith.Foundation.LayoutService.Serialization

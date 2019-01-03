@@ -1,7 +1,7 @@
 ﻿using CoreySmith.Foundation.LayoutService.Serialization;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
-using Sitecore.JavaScriptServices.ViewEngine.LayoutService;
+using Sitecore.JavaScriptServices.ViewEngine.LayoutService.Serialization;
 
 namespace CoreySmith.Foundation.LayoutService
 {
