@@ -3,7 +3,7 @@ ID: "7c699e4b-3a03-40c8-b61e-460469f5077f"
 Parent: "59b41b5f-e22e-460b-941e-fb64fe8da8fc"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/system/Settings/Services/API Keys/Project
-DB: core
+DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon

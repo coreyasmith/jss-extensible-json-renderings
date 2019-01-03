@@ -3,11 +3,11 @@ ID: "f52c1064-c711-47e7-9f92-c761c6e54ef8"
 Parent: "7c699e4b-3a03-40c8-b61e-460469f5077f"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/system/Settings/Services/API Keys/Project/JssRocks
-DB: core
+DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Type: tree list
+  Type: TreelistEx
   Value: |
     {A6868D65-D612-401F-A40A-CD5BA0857B81}
     {E642EF3A-ACF4-4238-B847-CE504C1E9780}

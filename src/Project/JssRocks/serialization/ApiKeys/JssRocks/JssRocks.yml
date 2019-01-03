@@ -3,7 +3,7 @@ ID: "d950c900-a070-468b-a211-97abb24e598c"
 Parent: "f52c1064-c711-47e7-9f92-c761c6e54ef8"
 Template: "a6868d65-d612-401f-a40a-cd5ba0857b81"
 Path: /sitecore/system/Settings/Services/API Keys/Project/JssRocks/JssRocks
-DB: core
+DB: master
 SharedFields:
 - ID: "1e7a5aa7-a27d-46fa-bd93-1bfe3c04efe2"
   Hint: Impersonation User
