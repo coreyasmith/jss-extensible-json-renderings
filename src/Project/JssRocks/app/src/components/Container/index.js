@@ -1,5 +1,5 @@
-import React from "react";
-import { Placeholder } from "@sitecore-jss/sitecore-jss-react";
+import React from 'react';
+import { Placeholder } from '@sitecore-jss/sitecore-jss-react';
 
 const Container = ({ rendering }) => (
   <div className="container border border-primary">

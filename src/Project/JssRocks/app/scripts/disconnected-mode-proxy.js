@@ -10,7 +10,8 @@
 /* eslint-disable no-console */
 
 const fs = require('fs');
-const { createCustomDisconnectedServer } = require('./create-custom-disconnected-server');
+const path = require('path');
+const { createDefaultDisconnectedServer } = require('@sitecore-jss/sitecore-jss-dev-tools');
 const config = require('../package.json').config;
 const { getRouteRenderings } = require('./layout-service/get-route-renderings');
 const { addAtlSugMembers } = require('./layout-service/add-atlsug-members');
@@ -18,11 +19,11 @@ const { addAtlSugMembers } = require('./layout-service/add-atlsug-members');
 const touchToReloadFilePath = 'src/temp/config.js';
 
 const proxyOptions = {
-  appRoot: __dirname,
+  appRoot: path.join(__dirname, '..'),
   appName: config.appName,
-  watchPaths: ['../data'],
+  watchPaths: ['./data'],
   language: config.language,
-  port: 3042,
+  port: process.env.PROXY_PORT || 3042,
   onManifestUpdated: (manifest) => {
     // if we can resolve the config file, we can alter it to force reloading the app automatically
     // instead of waiting for a manual reload. We must materially alter the _contents_ of the file to trigger
@@ -45,4 +46,8 @@ const proxyOptions = {
   }
 };
 
-createCustomDisconnectedServer(proxyOptions);
+// Need to customize something that the proxy options don't support?
+// createDefaultDisconnectedServer() is a boilerplate that you can copy from
+// and customize the middleware registrations within as you see fit.
+// See https://github.com/Sitecore/jss/blob/master/packages/sitecore-jss-dev-tools/src/disconnected-server/create-default-disconnected-server.ts
+createDefaultDisconnectedServer(proxyOptions);
