@@ -9,15 +9,14 @@ const atlSugMembers = [
 
 const applicableRenderings = ["ContentBlock"];
 
-const addAtlSugMembers = (routeRenderings, rawRouteRenderings) => {
-  const atlSugMemberRenderings = applicableRenderings.map(r => r.toLowerCase());
-  const addAtlSugRenderingIds = rawRouteRenderings
-    .filter(r => atlSugMemberRenderings.includes(r.renderingName.toLowerCase()))
-    .map(r => r.uid);
+const addAtlSugMembers = (transformedRendering, rawRendering) => {
+  if (!applicableRenderings.includes(rawRendering.renderingName))
+    return undefined;
 
-  addAtlSugRenderingIds.forEach(renderingId => {
-    routeRenderings[renderingId].atlSugMembers = atlSugMembers;
-  });
+  return {
+    ...transformedRendering,
+    atlSugMembers: [...atlSugMembers]
+  };
 };
 
 exports.addAtlSugMembers = addAtlSugMembers;
