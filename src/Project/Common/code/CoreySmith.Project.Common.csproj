@@ -59,7 +59,7 @@
   <!-- /Helix Publishing Pipeline -->
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="2.0.1" />
-    <PackageReference Include="RichardSzalay.Helix.Publishing.WebRoot" Version="1.4.0-beta1" />
+    <PackageReference Include="RichardSzalay.Helix.Publishing.WebRoot" Version="1.4.4" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
