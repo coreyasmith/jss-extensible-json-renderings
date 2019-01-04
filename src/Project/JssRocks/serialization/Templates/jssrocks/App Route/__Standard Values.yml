@@ -5,6 +5,13 @@ Template: "69f9e9ec-716f-5d9d-8e9b-a9bfcc5682eb"
 Path: /sitecore/templates/Project/jssrocks/App Route/__Standard Values
 DB: master
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{69F9E9EC-716F-5D9D-8E9B-A9BFCC5682EB}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
