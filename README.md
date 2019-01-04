@@ -4,9 +4,7 @@ This is a sample repository to demonstrate how to extend rendering data in both
 the mock (disconnected) Layout Service and real Layout Service in [Sitecore
 JavaScript Services][1].
 
-Read more details about the inner workings here:
-- Connected mode: <https://www.coreysmith.co/jss-extend-connected-layout-service-rendering-data/>
-- Disconnected mode: <https://www.coreysmith.co/jss-extend-disconnected-layout-service-rendering-data/>
+Read more details about the inner workings here: <https://www.coreysmith.co/jss-extend-layout-service-rendering-data/>
 
 ## Setup
 
