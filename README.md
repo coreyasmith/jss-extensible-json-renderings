@@ -12,7 +12,7 @@ Read more details about the inner workings here:
 
 1. Clone this repository.
    - The default clone path is
-    `C:\Projects\Sitecore\ExtensibleJsonRenderings`.
+    `C:\Projects\Sitecore\jss-extensible-json-renderings`.
 2. Install an instance of [Sitecore 9.1 Initial Release][2].
    - The default install path is
     `C:\inetpub\wwwroot\extjsonrenderings.localhost`.
