@@ -2,7 +2,7 @@
 ID: "14e97be6-7a25-4a4b-be9f-d2acc2a8dd58"
 Parent: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/JavaScript Services/JavaScript Rendering/ATLSUG
+Path: /sitecore/templates/Foundation/JavaScript Services/Json Rendering/ATLSUG
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
