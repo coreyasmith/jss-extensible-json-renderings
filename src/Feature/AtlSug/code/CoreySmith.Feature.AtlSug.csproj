@@ -54,9 +54,6 @@
     <PackageReference Include="Sitecore.LayoutService">
       <Version>4.0.2</Version>
     </PackageReference>
-    <PackageReference Include="Sitecore.Mvc">
-      <Version>3.0.0</Version>
-    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
