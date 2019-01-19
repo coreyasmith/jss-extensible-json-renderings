@@ -13,8 +13,8 @@ Read more details about the inner workings here: <https://www.coreysmith.co/jss-
     `C:\Projects\Sitecore\jss-extensible-json-renderings`.
 2. Install an instance of [Sitecore 9.1 Initial Release][2].
    - The default install path is
-    `C:\inetpub\wwwroot\extjsonrenderings.localhost`.
-   - The default URL is `extjsonrenderings.localhost`.
+    `C:\inetpub\wwwroot\extjsonrenderings.sitecore`.
+   - The default URL is `extjsonrenderings.sitecore`.
 3. Install [Sitecore JavaScript Services 11.0.0][3].
 4. If you used a clone path, install directory, or URL different than the
    defaults above, open
@@ -38,7 +38,7 @@ Read more details about the inner workings here: <https://www.coreysmith.co/jss-
    - Note: you may need to reload the solution and build a second time if you
      get errors about missing assemblies/references when you load Sitecore.
 7. Perform a Unicorn sync at `/unicorn.aspx?verb=sync`.
-8. Navigate to your site at <http://hostname.localhost.>
+8. Navigate to your site at <http://hostname.sitecore.>
 
 [1]: https://jss.sitecore.net
 [2]: https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <publishUrl>C:\inetpub\wwwroot\extjsonrenderings.localhost</publishUrl>
+    <publishUrl>C:\inetpub\wwwroot\extjsonrenderings.sitecore</publishUrl>
   </PropertyGroup>
   <Import Project="./PublishSettings.targets.user" Condition="exists('./PublishSettings.targets.user')" />
   <Import Project="./build/CleanWebRoot.targets" Condition="exists('./build/CleanWebRoot.targets')" />
