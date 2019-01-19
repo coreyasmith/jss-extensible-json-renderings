@@ -7,11 +7,11 @@ const atlSugMembers = [
   'Amy "Sitecore Amy" Winburn'
 ];
 
-const applicableRenderings = ["ContentBlock"];
-
-const addAtlSugMembers = (transformedRendering, rawRendering) => {
-  if (!applicableRenderings.includes(rawRendering.renderingName))
-    return undefined;
+const addAtlSugMembers = (transformedRendering, currentManifest) => {
+  const manifestRendering = currentManifest.renderings.find(
+    r => r.name === transformedRendering.componentName
+  );
+  if (!manifestRendering.addAtlSugMembers) return undefined;
 
   return {
     ...transformedRendering,

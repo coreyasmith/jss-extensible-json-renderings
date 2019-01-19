@@ -16,5 +16,6 @@ export default function(manifest) {
       { name: 'heading', type: CommonFieldTypes.SingleLineText },
       { name: 'content', type: CommonFieldTypes.RichText },
     ],
+    addAtlSugMembers: true
   });
 }

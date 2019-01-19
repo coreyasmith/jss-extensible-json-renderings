@@ -38,8 +38,8 @@ const proxyOptions = {
       console.log('Manifest data updated. Refresh the browser to see latest content!');
     }
   },
-  customizeRendering: (transformedRendering, rawRendering) => {
-    let customizedRendering = addAtlSugMembers(transformedRendering, rawRendering);
+  customizeRendering: (transformedRendering, rawRendering, currentManifest) => {
+    let customizedRendering = addAtlSugMembers(transformedRendering, currentManifest);
     return customizedRendering;
   }
 };
